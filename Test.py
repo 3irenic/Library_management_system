@@ -24,12 +24,12 @@ class main():
     member1 = Member("Lesedi Sebekedi", "M123")
 
     # print the member object
-    print("The members are: ",member1)                # John Doe - Membership No: M123
+    print("The members are: ",member1)                
 
     # create a Loan instance
     loan1 = Loan(book1, member1)
 
     # print the loan object
-    print(loan1)                  # The Great Gatsby by F. Scott Fitzgerald - borrowed by John Doe - Due
+    print(loan1)                  
 
 main()
